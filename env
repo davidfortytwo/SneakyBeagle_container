@@ -1,0 +1,13 @@
+# Nessus
+ACTIVATION_CODE=<activation_code>
+USERNAME=<username>
+PASSWORD=<password>
+NESSUSHOSTPORT=8834
+
+# SSH Kali
+SSHPASSWORD=<ssh_password>
+SSHHOSTPORT=2222
+
+# SSH RedTeam
+RTSSHPASSWORD=<ssh_password>
+RTSSHHOSTPORT=7722
