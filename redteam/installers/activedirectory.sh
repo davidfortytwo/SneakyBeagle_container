@@ -16,3 +16,4 @@ git clone  $GITHUB/lkarlslund/adalanche.git && cd adalanche-master && ./build.sh
 cd $WORKDIR
 git clone $GITHUB/DanMcInerney/icebreaker.git && cd icebreaker && ./setup.sh && pipenv install --three && pipenv shell
 cd $WORKDIR
+echo "Done"
