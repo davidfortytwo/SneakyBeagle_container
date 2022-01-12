@@ -1,3 +1,5 @@
 .env
 *.env
 .dccache
+.vscode
+settings.json
