@@ -1,6 +1,6 @@
 FROM tenableofficial/nessus
-LABEL author="SneakyBeable"
-LABEL description="Container for Registered Nessus"
+label author="SneakyBeable"
+label description="Container for Registered Nessus"
 
 ARG ACTIVATION_CODE
 ARG USERNAME
