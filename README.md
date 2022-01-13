@@ -285,8 +285,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * dkimsc4n
   * testssl.sh
   * Nuclei
-  * Sn1per
-
+  
 * Weaponization
 
   * CVE-2018-20250
@@ -295,7 +294,6 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * CVE-2017-8570
   * demiguise
   * Malicious Macro Generator
-  * DKMC
   * Office DDE Payloads
   * DZGEN
   * EmbedinHTML
@@ -310,7 +308,6 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * Macro Shop
   * EvilClippy
   * donut
-  * Icebreaker
   * Evilgrade
 
 # Infection Monkey
