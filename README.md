@@ -181,7 +181,6 @@ With sometools.sh script you can add some more tools or keep the installed ones 
 
   * TOR
   * TORsocks
-  * I2P
   * ProxyChains
   * OpenVPN
   * Wireguard
