@@ -7,7 +7,7 @@ mkdir $WORKDIR
 
 echo "Installing digital weapon factory"
 
-apt update && apt install -y backdoor-factory
+apt update && apt install -y backdoor-factory python2
 
 cd $WORKDIR
 
