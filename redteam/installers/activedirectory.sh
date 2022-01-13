@@ -8,7 +8,7 @@ mkdir $WORKDIR
 echo "Installing AD tools"
 
 apt-get update && apt-get install -y bloodhound golang-go
-pip3 install ldap3 dnspython future ldapdomaindump
+pip3 install ldap3 dnspython future ldapdomaindump kerberoast
 
 git clone $GITHUB/SecuProject/ADenum.git && cd ADenum && pip3 install -r requirements.txt
 cd $WORKDIR

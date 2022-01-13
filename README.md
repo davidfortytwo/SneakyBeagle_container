@@ -175,6 +175,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * ADalanche
   * LDAPdomaindump
   * Icebreaker
+  * Kerbearoast
 
 * Anon
 
