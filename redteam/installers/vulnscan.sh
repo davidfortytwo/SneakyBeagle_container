@@ -22,6 +22,7 @@ git clone $GITHUB/drwetter/testssl.sh.git
 #    nuclei -version;
 #    nuclei -ut;
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+export PATH=/root/go/bin:$PATH
 nuclei -ut
 cd $WORKDIR
 echo "Done"
