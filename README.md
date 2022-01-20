@@ -63,6 +63,7 @@ Or build a specific service, like for example only Nessus, by running
 ```
 docker-compose build nessus
 ```
+
 Instead of building them, you can also download prebuilt images for kali and redteam (step 3 can be ignored in this case):
 
 ```
@@ -71,7 +72,8 @@ docker pull dvd42/sneakykali
 docker pull dvd42/sneakyredteam
 
 ```
-and run them with 
+
+and run them with
 
 ```
 docker run -it dvd42/sneakykali
@@ -176,7 +178,6 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * LDAPdomaindump
   * Icebreaker
   * Kerbearoast
-
 * Anon
 
   * TOR
@@ -185,13 +186,11 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * OpenVPN
   * Wireguard
   * TorGhost
-
 * Evasion
 
   * UACME
   * mortar
   * DKMC
-
 * Exfiltration
 
   * Mistica
@@ -200,17 +199,14 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * Data Exfiltration Toolkit
   * Powershell-RAT
   * PyExfil
-
 * Exploitation
 
   * impacket
   * BEEF
   * bettercap
   * Metasploit Framework
-  * jok3r Framework
   * CVE-2021-44228 PoC log4j bypass words
   * Log4Shell RCE Exploit
-
 * Mobile
 
   * Mobile Security Framework
@@ -229,7 +225,6 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * jadx
   * jd-gui
   * qark
-
 * OSINT / Recon
 
   * TIDoS Framework
@@ -252,7 +247,6 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * ADRecon
   * Email Harvester
   * tinfoleak
-
 * Phishing
 
   * Social Engineer Toolkit
@@ -266,7 +260,6 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * GoPhish
   * ReelPhish
   * CredSniper
-
 * PostExploitation
 
   * Empire Framework 4
@@ -277,7 +270,6 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * Merlin
   * weevely
   * Powersploit
-
 * Privilege Escalation
 
   * BeRoot
@@ -291,7 +283,6 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * Log4j CVE-2021-45046
   * Responder
   * Windows Kernel Exploits
-
 * Vulnerability Scan
 
   * CVE-2021-44228 Scanner
@@ -301,9 +292,9 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * dkimsc4n
   * testssl.sh
   * Nuclei
-  
 * Weaponization
 
+  * jok3r Framework
   * CVE-2018-20250
   * CVE-2017-8759
   * CVE-2017-0199
