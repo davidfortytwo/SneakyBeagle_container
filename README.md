@@ -190,6 +190,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
 
   * UACME
   * mortar
+  * DKMC
 
 * Exfiltration
 
@@ -213,6 +214,21 @@ With sometools.sh script you can add some more tools or keep the installed ones 
 * Mobile
 
   * Mobile Security Framework
+  * Nuclei Mobile templates
+  * Frida
+  * Frida scripts
+  * Fida iOS dump
+  * Fridump
+  * Scrounger
+  * APKleaks
+  * Drozer
+  * APKtool
+  * APKX
+  * dex2jar
+  * enjarify
+  * jadx
+  * jd-gui
+  * qark
 
 * OSINT / Recon
 
