@@ -178,6 +178,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * LDAPdomaindump
   * Icebreaker
   * Kerbearoast
+
 * Anon
 
   * TOR
@@ -186,6 +187,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * OpenVPN
   * Wireguard
   * TorGhost
+
 * Evasion
 
   * UACME
@@ -199,6 +201,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * Data Exfiltration Toolkit
   * Powershell-RAT
   * PyExfil
+
 * Exploitation
 
   * impacket
@@ -207,6 +210,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * Metasploit Framework
   * CVE-2021-44228 PoC log4j bypass words
   * Log4Shell RCE Exploit
+
 * Mobile
 
   * Mobile Security Framework
@@ -225,6 +229,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * jadx
   * jd-gui
   * qark
+
 * OSINT / Recon
 
   * TIDoS Framework
@@ -247,6 +252,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * ADRecon
   * Email Harvester
   * tinfoleak
+
 * Phishing
 
   * Social Engineer Toolkit
@@ -260,6 +266,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * GoPhish
   * ReelPhish
   * CredSniper
+
 * PostExploitation
 
   * Empire Framework 4
@@ -270,6 +277,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * Merlin
   * weevely
   * Powersploit
+
 * Privilege Escalation
 
   * BeRoot
@@ -284,6 +292,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * Responder
   * Windows Kernel Exploits
   * CVE-2021-4034
+
 * Vulnerability Scan
 
   * CVE-2021-44228 Scanner
@@ -293,6 +302,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * dkimsc4n
   * testssl.sh
   * Nuclei
+  
 * Weaponization
 
   * jok3r Framework
