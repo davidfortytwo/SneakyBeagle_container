@@ -193,6 +193,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * UACME
   * mortar
   * DKMC
+  
 * Exfiltration
 
   * Mistica
@@ -302,7 +303,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * dkimsc4n
   * testssl.sh
   * Nuclei
-  
+
 * Weaponization
 
   * jok3r Framework
