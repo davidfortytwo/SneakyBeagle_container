@@ -283,6 +283,7 @@ With sometools.sh script you can add some more tools or keep the installed ones 
   * Log4j CVE-2021-45046
   * Responder
   * Windows Kernel Exploits
+  * CVE-2021-4034
 * Vulnerability Scan
 
   * CVE-2021-44228 Scanner

@@ -19,5 +19,6 @@ git clone $GITHUB/absolomb/WindowsEnum.git
 git clone $GITHUB/cckuailong/Log4j_CVE-2021-45046.git
 git clone $GITHUB/lgandx/Responder.git
 git clone $GITHUB/SecWiki/windows-kernel-exploits.git
+git clone $GITHUB/berdav/CVE-2021-4034.git && cd CVE-2021-4034 && make
 cd $WORKDIR
 echo "Done"
