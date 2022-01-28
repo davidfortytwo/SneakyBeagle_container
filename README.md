@@ -179,7 +179,7 @@ with only one script.
   * ADalanche
   * LDAPdomaindump
   * Icebreaker
-  * Kerbearoast
+  * Kerberoast
 
 * Anon
 
