@@ -1,6 +1,13 @@
 #!/bin/bash
 # Execute as root
 # Only compatible with docker for Linux
+apt-get update && apt-get -u upgrade
+FILE="/usr/bin/wget"
+if [ -f "$FILE" ]; then
+    echo "Let's continue..."
+    else
+    apt-get install wget
+fi
 wget https://guardicore-infectionmonkey.s3.amazonaws.com/Files/1.12.0/InfectionMonkey-docker-v1.12.0.tgz
 tar -xvzf InfectionMonkey-docker-v1.12.0.tgz
 docker pull mongo:4.2
