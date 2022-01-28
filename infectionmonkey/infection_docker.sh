@@ -1,7 +1,7 @@
 #!/bin/bash
 # Execute as root
 # Only compatible with docker for Linux
-apt-get update && apt-get -u upgrade
+apt-get update && apt-get -y upgrade
 FILE="/usr/bin/wget"
 if [ -f "$FILE" ]; then
     echo "Let's continue..."
