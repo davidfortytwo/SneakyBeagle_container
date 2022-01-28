@@ -169,6 +169,8 @@ docker-compose rm
 
 Split into categories, each script installs a defined toolkit for all red team phases and attack vectors.
 With sometools.sh script you can add some more tools or keep the installed ones updated.
+Full container with all dependencies and tools is around 42GB. Recommended to execute individual scripts for each category to use. With enough space available, you can do a full install
+with only one script.
 
 * Active Directory
 
