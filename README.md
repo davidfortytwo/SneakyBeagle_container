@@ -306,6 +306,7 @@ with only one script.
   * dkimsc4n
   * testssl.sh
   * Nuclei
+  * Vulmap
 
 * Weaponization
 
