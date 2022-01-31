@@ -16,4 +16,6 @@ git clone  $GITHUB/lkarlslund/adalanche.git && cd adalanche && ./build.sh
 cd $WORKDIR
 git clone $GITHUB/DanMcInerney/icebreaker.git && cd icebreaker && ./setup.sh && pipenv install --three && pipenv shell
 cd $WORKDIR
+git clone $GITHUB/TarlogicSecurity/kerbrute && cd kerbrute && pip install -r requirements.txt
+cd $WORKDIR
 echo "Done"

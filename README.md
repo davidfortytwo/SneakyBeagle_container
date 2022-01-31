@@ -180,6 +180,7 @@ with only one script.
   * LDAPdomaindump
   * Icebreaker
   * Kerberoast
+  * Kerbrute
 
 * Anon
 
