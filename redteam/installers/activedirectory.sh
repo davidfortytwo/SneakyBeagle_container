@@ -9,7 +9,7 @@ echo "Installing AD tools"
 python3 -m venv env
 source env/bin/activate
 apt-get update && apt-get install -y bloodhound golang-go pipenv
-pip3 install ldap3 dnspython future ldapdomaindump kerberoast
+pip3 install ldap3 dnspython future ldapdomaindump kerberoast requests==2.26
 cd $WORKDIR
 git clone https://github.com/python-ldap/python-ldap.git && cd python-ldap && python setup.py build && python setup.py install
 cd $WORKDIR
