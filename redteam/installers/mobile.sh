@@ -31,7 +31,7 @@ git clone https://github.com/FSecureLABS/drozer.git && cd drozer && make deb
 cd $WORKDIR
 git clone https://github.com/iBotPeaches/Apktool.git && cd Apktool && ./gradlew build shadowJar
 cd $WORKDIR
-git clone https://github.com/b-mueller/apkx && cd apkx && ./install.shadowJar
+git clone https://github.com/b-mueller/apkx && cd apkx && ./install.sh
 cd $WORKDIR
 git clone https://github.com/pxb1988/dex2jar.git
 git clone https://github.com/Storyyeller/enjarify.git
