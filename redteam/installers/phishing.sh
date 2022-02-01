@@ -6,9 +6,9 @@ GITHUB="https://github.com"
 mkdir $WORKDIR
 
 echo "Installing phishing tools"
-
+python3 -m venv env
+source env/bin/activate
 apt install golang-go
-
 cd $WORKDIR
 git clone $GITHUB/trustedsec/social-engineer-toolkit.git && cd social-engineer-toolkit && pip3 install -r requirements.txt && cd $WORKDIR
 git clone $GITHUB/L4bF0x/PhishingPretexts.git

@@ -6,6 +6,8 @@ GITHUB="https://github.com"
 mkdir $WORKDIR
 
 echo "Installing OSINT/Recon tools"
+python3 -m venv env
+source env/bin/activate
 apt update && apt install -y libncurses5 libxml2 tcpdump libexiv2-dev libmariadb3 libmariadb-dev libmariadb-dev-compat cmake libboost-all-dev
 cd $WORKDIR
 git clone $GITHUB/cbk914/SecLists.git

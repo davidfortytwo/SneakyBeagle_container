@@ -6,6 +6,8 @@ GITHUB="https://github.com"
 mkdir $WORKDIR
 
 echo "Installing privilege escalation tools"
+python3 -m venv env
+source env/bin/activate
 cd $WORKDIR
 git clone $GITHUB/AlessandroZ/BeRoot.git
 git clone $GITHUB/rebootuser/LinEnum.git

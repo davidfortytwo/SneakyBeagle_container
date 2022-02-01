@@ -6,6 +6,8 @@ GITHUB="https://github.com"
 mkdir $WORKDIR
 
 echo "Installing mobile tools"
+python3 -m venv env
+source env/bin/activate
 pip3 install colorama prompt-toolkit pygments frida frida-tools
 apt update && apt install -y gradlew
 cd $WORKDIR
@@ -31,7 +33,7 @@ git clone https://github.com/iBotPeaches/Apktool.git && cd Apktool && ./gradlew 
 cd $WORKDIR
 git clone https://github.com/b-mueller/apkx && cd apkx && ./install.shadowJar
 cd $WORKDIR
-git clone https://github.com/pxb1988/dex2jar.github
+git clone https://github.com/pxb1988/dex2jar.git
 git clone https://github.com/Storyyeller/enjarify.git
 git clone https://github.com/skylot/jadx.git && cd jadx && ./gradlew dist
 cd $WORKDIR

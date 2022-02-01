@@ -6,6 +6,8 @@ GITHUB="https://github.com"
 mkdir $WORKDIR
 
 echo "Installing evasion tools"
+python3 -m venv env
+source env/bin/activate
 cd $WORKDIR
 git clone $GITHUB/hfiref0x/UACME.git
 cd $WORKDIR
