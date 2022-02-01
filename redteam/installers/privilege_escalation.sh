@@ -22,6 +22,12 @@ git clone $GITHUB/cckuailong/Log4j_CVE-2021-45046.git
 git clone $GITHUB/lgandx/Responder.git
 git clone $GITHUB/SecWiki/windows-kernel-exploits.git
 git clone $GITHUB/berdav/CVE-2021-4034.git && cd CVE-2021-4034 && make
+mkdir CVE-2021-4034_python && git clone $GITHUB/joeammond/CVE-2021-4034.git CVE-2021-4034_python
+mkdir CVE-2021-4034_precompiled && git clone $GITHUB/c3c/CVE-2021-4034.git CVE-2021-4034_precompiled
+mkdir blasty-vs-pkexec2 && cd blasty-vs-pkexec2/ && curl https://haxx.in/files/blasty-vs-pkexec2.c -o blasty-vs-pkexec2.c && \
+    gcc -o blasty-vs-pkexec2.so -fPIC -shared blasty-vs-pkexec2.c -Wl,-e,entry
+mkdir CVE-2021-4034_custom_command && git clone https://github.com/zhzyker/CVE-2021-4034.git CVE-2021-4034_custom_command && cd CVE-2021-4034_custom_command && \
+    gcc cve-2021-4034.c -o cve-2021-4034
 cd $WORKDIR
 rm privilege_escalation.sh
 apt autoremove -y
