@@ -6,11 +6,10 @@ GITHUB="https://github.com"
 mkdir $WORKDIR
 
 echo "Installing digital weapon factory"
-
+python3 -m venv env
+source env/bin/activate
 apt update && apt install -y backdoor-factory python2
-
 cd $WORKDIR
-
 git clone $GITHUB/WyAtu/CVE-2018-20250.git
 git clone $GITHUB/bhdresh/CVE-2017-8759.git
 git clone $GITHUB/bhdresh/CVE-2017-0199.git

@@ -6,6 +6,8 @@ GITHUB="https://github.com"
 mkdir $WORKDIR
 
 echo "Installing exfiltration tools"
+python3 -m venv env
+source env/bin/activate
 cd $WORKDIR
 git clone $GITHUB/IncideDigital/Mistica.git && cd Mistica && pip3 install dnslib
 cd $WORKDIR

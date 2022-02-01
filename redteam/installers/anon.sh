@@ -6,6 +6,8 @@ GITHUB="https://github.com"
 mkdir $WORKDIR
 
 echo "Installing anonymity tools"
+python3 -m venv env
+source env/bin/activate
 apt-get update
 apt-get install -y openvpn torsocks proxychains wireguard
 cd $WORKDIR

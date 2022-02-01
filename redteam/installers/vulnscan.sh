@@ -6,6 +6,8 @@ GITHUB="https://github.com"
 mkdir $WORKDIR
 
 echo "Installing vulnerability scan tools"
+python3 -m venv env
+source env/bin/activate
 apt update && apt install -y libsasl2-dev libldap2-dev golang-go
 cd $WORKDIR
 git clone $GITHUB/SecureAuthCorp/impacket.git && cd impacket && python3 -m pip install . && cd $WORKDIR
