@@ -16,7 +16,7 @@ COPY commands/whichsystem.py /usr/local/bin/whichsystem
 RUN apt-get update && apt-get install -y apt-utils curl netcat-traditional gnupg2 postgresql python3-venv apt-transport-https lsb-release libpcap-dev \
     nmap gobuster python3 python3-dev build-essential python3-pip iproute2 dnsutils iputils-ping redis-server sqlmap terminator whois powershell libpcap-dev \
     nikto wget ssh net-tools git nfs-common tcpdump seclists glances inetutils-traceroute vim golang-go libreadline-dev libpq5 libpq-dev readline-common \
-    subversion git-core autoconf zlib1g-dev libxml2-dev libxslt1-dev libyaml-dev ruby1.9.1 nmap openssh-server zsh iputils-ping netdiscover hping3 libsqlite3-dev
+    subversion git-core autoconf zlib1g-dev libxml2-dev libxslt1-dev libyaml-dev ruby1.9.1 nmap openssh-server zsh iputils-ping netdiscover hping3 libsqlite3-dev python-wheel-common
 
 # RedTeamToolkit
 
