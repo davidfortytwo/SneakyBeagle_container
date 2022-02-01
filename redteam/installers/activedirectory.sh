@@ -22,4 +22,5 @@ cd $WORKDIR
 git clone $GITHUB/TarlogicSecurity/kerbrute && cd kerbrute && pip install -r requirements.txt
 cd $WORKDIR
 rm activedirectory.sh
+apt autoremove -y
 echo "Done"

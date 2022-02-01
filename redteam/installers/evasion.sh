@@ -18,4 +18,5 @@ cd $WORKDIR
 git clone $GITHUB/Mr-Un1k0d3r/DKMC && cd DKMC && mkdir output
 cd $WORKDIR
 rm evasion.sh
+apt autoremove -y
 echo "Done"

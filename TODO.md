@@ -1,8 +1,8 @@
-* Replace RedTeam scripts with container orchestration with docker-compose
+
 * ~~Install the toolkit on virtual envs~~
 * ~~Add more evasion tools~~
 * ~~Add more mobile tools~~
-* Complete and fix installation of all tools
+* Fix installation of all tools
 * ~~Fix py2exe installation (requires-python:>=3.6, <3.10)>) on exfiltration.sh~~
 * ~~Fix installation of modules: pycrypto, python-ldap, msf (start postgresql), lxml (version compatible with html5lib)~~
 * Improve container's security

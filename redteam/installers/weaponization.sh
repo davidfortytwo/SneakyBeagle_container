@@ -35,4 +35,5 @@ git clone $GITHUB/infobyte/evilgrade.git
 git clone $GITHUB/mindcrypt/powerglot.git
 cd $WORKDIR
 rm weaponization.sh
+apt autoremove -y
 echo "Done"

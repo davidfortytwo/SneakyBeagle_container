@@ -42,4 +42,5 @@ cd $WORKDIR
 git clone $GITHUB/linkedin/qark && cd qark && pip install -r requirements.txt && pip install . --user
 cd $WORKDIR
 rm mobile.sh
+apt autoremove -y
 echo "Done"
