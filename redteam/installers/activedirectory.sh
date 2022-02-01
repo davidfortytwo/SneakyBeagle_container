@@ -21,4 +21,5 @@ git clone $GITHUB/DanMcInerney/icebreaker.git && cd icebreaker && ./setup.sh && 
 cd $WORKDIR
 git clone $GITHUB/TarlogicSecurity/kerbrute && cd kerbrute && pip install -r requirements.txt
 cd $WORKDIR
+rm activedirectory.sh
 echo "Done"
