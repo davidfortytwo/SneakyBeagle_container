@@ -32,4 +32,5 @@ git clone $GITHUB/sense-of-security/ADRecon
 git clone $GITHUB/maldevel/EmailHarvester.git && cd EmailHarvester && pip3 install -r requirements.txt && cd $WORKDIR
 #git clone $GITHUB/vaguileradiaz/tinfoleak.git
 cd $WORKDIR
+rm osint.sh
 echo "Done"

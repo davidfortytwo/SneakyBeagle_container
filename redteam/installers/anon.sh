@@ -13,4 +13,5 @@ apt-get install -y openvpn torsocks proxychains wireguard
 cd $WORKDIR
 git clone $GITHUB/SusmithKrishnan/torghost.git && cd torghost && pip3 install -r requirements.txt
 cd $WORKDIR
+rm anon.sh
 echo "Done"

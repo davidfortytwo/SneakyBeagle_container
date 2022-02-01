@@ -34,4 +34,5 @@ git clone $GITHUB/TheWover/donut.git && cd donut && make && cd $WORKDIR
 git clone $GITHUB/infobyte/evilgrade.git
 git clone $GITHUB/mindcrypt/powerglot.git
 cd $WORKDIR
+rm weaponization.sh
 echo "Done"

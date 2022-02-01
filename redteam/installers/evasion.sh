@@ -17,4 +17,5 @@ cd $WORKDIR
 #cd $WORKDIR
 git clone $GITHUB/Mr-Un1k0d3r/DKMC && cd DKMC && mkdir output
 cd $WORKDIR
+rm evasion.sh
 echo "Done"

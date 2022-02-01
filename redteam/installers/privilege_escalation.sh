@@ -23,4 +23,5 @@ git clone $GITHUB/lgandx/Responder.git
 git clone $GITHUB/SecWiki/windows-kernel-exploits.git
 git clone $GITHUB/berdav/CVE-2021-4034.git && cd CVE-2021-4034 && make
 cd $WORKDIR
+rm privilege_escalation.sh
 echo "Done"
