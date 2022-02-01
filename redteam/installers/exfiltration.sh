@@ -25,4 +25,5 @@ git clone $GITHUB/SECFORCE/Tunna.git
 git clone $GITHUB/ytisf/PyExfil.git && cd PyExfil && pip3 install -r requirements3.txt
 cd $WORKDIR
 rm exfiltration.sh
+apt autoremove -y
 echo "Done"

@@ -13,4 +13,5 @@ echo "Installing all Red Team tools..."
 ./vulnscan.sh
 ./weaponization.sh
 rm *.sh
+apt autoremove -y
 echo "Done!"

@@ -23,4 +23,5 @@ git clone $GITHUB/mandiant/ReelPhish.git && cd ReelPhish && pip3 install -r requ
 git clone $GITHUB/ustayready/CredSniper.git && cd CredSniper && pip3 install -r requirements.txt
 cd $WORKDIR
 rm phishing.sh
+apt autoremove -y
 echo "Done"

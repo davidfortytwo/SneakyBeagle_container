@@ -30,4 +30,5 @@ export PATH=/root/go/bin:$PATH
 nuclei -ut
 cd $WORKDIR
 rm vulnscan.sh
+apt autoremove -y
 echo "Done"

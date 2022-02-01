@@ -14,4 +14,5 @@ cd $WORKDIR
 git clone $GITHUB/SusmithKrishnan/torghost.git && cd torghost && pip3 install -r requirements.txt
 cd $WORKDIR
 rm anon.sh
+apt autoremove -y
 echo "Done"
