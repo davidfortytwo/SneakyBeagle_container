@@ -8,7 +8,7 @@ mkdir $WORKDIR
 echo "Installing mobile tools"
 python3 -m venv env
 source env/bin/activate
-pip3 install colorama prompt-toolkit pygments frida frida-tools
+pip3 install colorama prompt-toolkit pygments frida frida-tools cffi
 apt update && apt upgrade -y && apt install -y gradlew
 cd $WORKDIR
 git clone $GITHUB/MobSF/Mobile-Security-Framework-MobSF.git
