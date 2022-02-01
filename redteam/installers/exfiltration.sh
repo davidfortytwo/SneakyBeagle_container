@@ -23,7 +23,8 @@ git clone $GITHUB/SECFORCE/Tunna.git
 # git clone $GITHUB/py2exe/py2exe.git && cd py2exe && python3 setup.py install
 #cd $WORKDIR
 git clone $GITHUB/ytisf/PyExfil.git && cd PyExfil && pip3 install -r requirements3.txt
-cd $WORKDIR
+cd /root/RedTeamToolkit/
 rm exfiltration.sh
-apt autoremove -y
+apt update && apt upgrade -y
+apt autoremove -y && apt-get autoclean -y
 echo "Done"

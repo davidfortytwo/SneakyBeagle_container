@@ -8,6 +8,7 @@ mkdir $WORKDIR
 echo "Installing phishing tools"
 python3 -m venv env
 source env/bin/activate
+apt update && apt upgrade -y
 apt install golang-go
 cd $WORKDIR
 git clone $GITHUB/trustedsec/social-engineer-toolkit.git && cd social-engineer-toolkit && pip3 install -r requirements.txt && cd $WORKDIR
@@ -21,7 +22,7 @@ git clone $GITHUB/initstring/evil-ssdp.git
 git clone $GITHUB/gophish/gophish.git && cd gophish && go build && cd $WORKDIR
 git clone $GITHUB/mandiant/ReelPhish.git && cd ReelPhish && pip3 install -r requirements.txt && cd $WORKDIR
 git clone $GITHUB/ustayready/CredSniper.git && cd CredSniper && pip3 install -r requirements.txt
-cd $WORKDIR
+cd /root/RedTeamToolkit/
 rm phishing.sh
-apt autoremove -y
+apt autoremove -y && apt-get autoclean -y
 echo "Done"

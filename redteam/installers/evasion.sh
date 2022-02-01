@@ -16,7 +16,7 @@ cd $WORKDIR
 #git clone $GITHUB/oddcod3/Phantom-Evasion.git && cd Phantom-Evasion && chmod +x phantom-evasion.py && python3 phantom-evasion.py --setup
 #cd $WORKDIR
 git clone $GITHUB/Mr-Un1k0d3r/DKMC && cd DKMC && mkdir output
-cd $WORKDIR
+cd /root/RedTeamToolkit/
 rm evasion.sh
-apt autoremove -y
+apt autoremove -y && apt-get autoclean -y
 echo "Done"

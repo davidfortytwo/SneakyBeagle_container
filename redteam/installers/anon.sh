@@ -8,11 +8,11 @@ mkdir $WORKDIR
 echo "Installing anonymity tools"
 python3 -m venv env
 source env/bin/activate
-apt-get update
+apt-get update && apt upgrade -y
 apt-get install -y openvpn torsocks proxychains wireguard
 cd $WORKDIR
 git clone $GITHUB/SusmithKrishnan/torghost.git && cd torghost && pip3 install -r requirements.txt
-cd $WORKDIR
+cd /root/RedTeamToolkit/
 rm anon.sh
-apt autoremove -y
+apt autoremove -y && apt-get autoclean -y
 echo "Done"

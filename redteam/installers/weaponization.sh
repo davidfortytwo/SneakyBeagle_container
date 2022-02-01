@@ -8,7 +8,7 @@ mkdir $WORKDIR
 echo "Installing digital weapon factory"
 python3 -m venv env
 source env/bin/activate
-apt update && apt install -y backdoor-factory python2
+apt update && apt upgrade -y && apt install -y backdoor-factory python2
 cd $WORKDIR
 git clone $GITHUB/WyAtu/CVE-2018-20250.git
 git clone $GITHUB/bhdresh/CVE-2017-8759.git
@@ -33,7 +33,7 @@ git clone $GITHUB/outflanknl/EvilClippy.git
 git clone $GITHUB/TheWover/donut.git && cd donut && make && cd $WORKDIR
 git clone $GITHUB/infobyte/evilgrade.git
 git clone $GITHUB/mindcrypt/powerglot.git
-cd $WORKDIR
+cd /root/RedTeamToolkit/
 rm weaponization.sh
-apt autoremove -y
+apt autoremove -y && apt-get autoclean -y
 echo "Done"

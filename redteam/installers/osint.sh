@@ -8,7 +8,7 @@ mkdir $WORKDIR
 echo "Installing OSINT/Recon tools"
 python3 -m venv env
 source env/bin/activate
-apt update && apt install -y libncurses5 libxml2 tcpdump libexiv2-dev libmariadb3 libmariadb-dev libmariadb-dev-compat cmake libboost-all-dev
+apt update && apt upgrade -y && apt install -y libncurses5 libxml2 tcpdump libexiv2-dev libmariadb3 libmariadb-dev libmariadb-dev-compat cmake libboost-all-dev
 cd $WORKDIR
 git clone $GITHUB/cbk914/SecLists.git
 git clone $GITHUB/0xinfection/tidos-framework.git && cd tidos-framework && pip3 install -r requirements.txt && cd $WORKDIR
@@ -31,7 +31,7 @@ git clone $GITHUB/m8r0wn/CrossLinked.git && cd CrossLinked && pip3 install -r re
 git clone $GITHUB/sense-of-security/ADRecon
 git clone $GITHUB/maldevel/EmailHarvester.git && cd EmailHarvester && pip3 install -r requirements.txt && cd $WORKDIR
 #git clone $GITHUB/vaguileradiaz/tinfoleak.git
-cd $WORKDIR
+cd /root/RedTeamToolkit/
 rm osint.sh
-apt autoremove -y
+apt autoremove -y && apt-get autoclean -y
 echo "Done"

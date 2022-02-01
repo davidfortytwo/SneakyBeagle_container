@@ -9,7 +9,7 @@ echo "Installing mobile tools"
 python3 -m venv env
 source env/bin/activate
 pip3 install colorama prompt-toolkit pygments frida frida-tools
-apt update && apt install -y gradlew
+apt update && apt upgrade -y && apt install -y gradlew
 cd $WORKDIR
 git clone $GITHUB/MobSF/Mobile-Security-Framework-MobSF.git
 cd $WORKDIR
@@ -40,7 +40,7 @@ cd $WORKDIR
 git clone $GITHUB/java-decompiler/jd-gui.git && cd jd-gui && ./gradlew build
 cd $WORKDIR
 git clone $GITHUB/linkedin/qark && cd qark && pip install -r requirements.txt && pip install . --user
-cd $WORKDIR
+cd /root/RedTeamToolkit/
 rm mobile.sh
-apt autoremove -y
+apt autoremove -y && apt-get autoclean -y
 echo "Done"

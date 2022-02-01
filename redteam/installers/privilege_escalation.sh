@@ -28,7 +28,7 @@ mkdir blasty-vs-pkexec2 && cd blasty-vs-pkexec2/ && curl https://haxx.in/files/b
     gcc -o blasty-vs-pkexec2.so -fPIC -shared blasty-vs-pkexec2.c -Wl,-e,entry
 mkdir CVE-2021-4034_custom_command && git clone https://github.com/zhzyker/CVE-2021-4034.git CVE-2021-4034_custom_command && cd CVE-2021-4034_custom_command && \
     gcc cve-2021-4034.c -o cve-2021-4034
-cd $WORKDIR
+cd /root/RedTeamToolkit/
 rm privilege_escalation.sh
-apt autoremove -y
+apt autoremove -y && apt-get autoclean -y
 echo "Done"
