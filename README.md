@@ -181,6 +181,7 @@ with only one script.
   * Icebreaker
   * Kerberoast
   * Kerbrute
+  * BloodyAD
 
 * Anon
 
