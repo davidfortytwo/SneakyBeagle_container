@@ -31,7 +31,7 @@ RUN chmod +x /root/RedTeamToolkit/*.sh && cd /root/RedTeamToolkit/ && git clone 
 RUN echo "root:$RTSSHPASSWORD" | chpasswd && service ssh start
 EXPOSE 22
 
-# Cleanup
-RUN touch /root/.hushlogin && apt-get autoremove -y && apt-get autoclean -y
+# Upgrade and Cleanup
+RUN touch /root/.hushlogin && apt update && apt upgrade -y && apt-get autoremove -y && apt-get autoclean -y
 
 WORKDIR /root/RedTeamToolkit
