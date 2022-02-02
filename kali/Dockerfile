@@ -4,7 +4,7 @@ LABEL description="Container for Kali Linux"
 ARG SSHPASSWORD
 
 # main setup and installation
-RUN apt-get update && apt-get install -y apt-utils curl netcat-traditional \
+RUN apt-get update && apt upgrade -y && apt-get install -y apt-utils curl netcat-traditional \
     nmap gobuster python3 python3-pip iproute2 dnsutils iputils-ping emacs-nox sqlmap whois \
     nikto wget ssh net-tools git nfs-common tcpdump seclists inetutils-traceroute vim
     
