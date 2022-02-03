@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Docker meta
         id: meta
-        uses: crazymax/ghaction-docker-meta@v2
+        uses: crazy-max/ghaction-docker-meta@v2
         with:
           images: SneakyBeagle/redteam
           tags: | 
