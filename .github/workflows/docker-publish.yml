@@ -26,7 +26,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
+      - name: Docker meta
+        id: meta
+        uses: crazymax/ghaction-docker-meta@v2
+        with:
+          images: SneakyBeagle/redteam
+          tags: | 
+            type=raw,value=latest.enable=${{ endsWith(Github.ref, 'master') }}
+            type=ref,event=tag
+          flavor: |
+            latest=false
       - name: Login to DockerHub
         if: github.event_name != 'pull_request'
         uses: docker/login-action@v1
