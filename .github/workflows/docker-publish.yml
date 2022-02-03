@@ -33,7 +33,7 @@ jobs:
         id: meta
         uses: crazy-max/ghaction-docker-meta@v2
         with:
-          images: cbk914/SneakyBeagle_container
+          images: cbk914/SneakyBeagle_container/redteam
           tags: | 
             type=raw,value=latest.enable=${{ endsWith(Github.ref, 'master') }}
             type=ref,event=tag
