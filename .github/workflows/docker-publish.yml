@@ -33,7 +33,6 @@ jobs:
         id: meta
         uses: crazy-max/ghaction-docker-meta@v2
         with:
-          images: ${{ IMAGE_NAME }}
           tags: | 
             type=raw,value=latest.enable=${{ endsWith(Github.ref, 'master') }}
             type=ref,event=tag
