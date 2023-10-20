@@ -1,9 +1,9 @@
 #!/bin/bash
 
-MONKVERS=1.13.0
+MONKVERS=2.3.0
 MONKNAME=monkey-island
 
-MONGO=mongo:4.2
+MONGO=mongo:6.0
 MONGONAME=monkey-mongo
 
 INFMONKTGZ=InfectionMonkey-docker-v$MONKVERS.tgz
